@@ -18,19 +18,17 @@
         }
 
         .avatar {
-            width: 120px;
-            height: 120px;
-            border: 2px solid black;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .avatar img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    overflow: hidden; /* QUAN TRỌNG */
+}
+.avatar img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    }
-
+    object-fit: cover; /* QUAN TRỌNG */
+    display: block;
+}
         .info {
             flex: 1;
         }
